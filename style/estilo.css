@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+.img-lamp {
+    background: url(../imagens/lamp2_1440x900.jpg) center no-repeat;
+}
+/* Header/logo Title */
+header {
+    padding: 60px;
+    text-align: left;
+    color: #fff;
+}
+.locate {
+    display: flex;
+    background-color: #fff;
+    padding: 0px 150px;
+}
+.locate h5 {
+    margin: 10px 0px;
+}
+/* Style the top navigation bar */
+nav {
+    display: flex;
+    background-color: rgba(0,0,0,.4);
+    justify-content: flex-end;
+}
+/* Style the navigation bar links */
+nav a {
+    color: #fff;/*#100c08;*/
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Change color on hover */
+nav a:hover {
+    background-color: #100c08;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Main column */
+.main { 
+    flex: 70%;
+    color: #fff;
+    background-color: #100c08;
+    padding: 10px 150px;
+}
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    header {
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .locate h5 {
+        margin-left: -135px;
+    }
+    nav a {
+        padding: 14px 20px;
+    }
+    .main {
+        padding: 15px;
+    }
+    .row, nav {   
+        flex-direction: column;
+    }
+}

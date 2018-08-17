@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.lista {
+	display: flex;
+	flex: 100%;
+	flex-wrap: wrap;
+}
+.lista li {
+	flex: 45%;
+	margin: 10px;
+	margin-left: -40px;
+	list-style: none;
+}
+.lista a {
+	color: #fff;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.lista a:hover {
+	text-decoration: underline;
+}
+.mes {
+	margin-bottom: -10px;
+}
+@media screen and (max-width: 800px) {
+	.lista {
+		flex-direction: column;
+	}
+	.lista a {
+		font-size: 18px;
+	}
+}

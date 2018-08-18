@@ -8,13 +8,14 @@ body {
     margin: 0;
 }
 .img-lamp {
-    background: url(../imagens/lamp2_1440x900.jpg) center no-repeat;
+    background: url(../imagens/ceti-desk.jpg) center -110px no-repeat fixed;
 }
 /* Header/logo Title */
 header {
-    padding: 60px;
+    padding: 80px;
     text-align: left;
     color: #fff;
+    text-shadow: 0px 0px 5px #000;
 }
 .locate {
     display: flex;
@@ -34,7 +35,7 @@ nav {
 }
 /* Style the navigation bar links */
 nav a {
-    color: #fff;/*#100c08;*/
+    color: #fff;
     padding: 20px 20px;
     text-decoration: none;
     text-align: center;
@@ -92,9 +93,13 @@ footer a {
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
+    .img-lamp {
+        background: url(../imagens/ceti-mobi.jpg) center -40px no-repeat fixed;
+    }
     header {
+        padding: 60px;
+        color: #fff;
         text-align: center;
-        text-shadow: 2px 2px 2px #000;
     }
     .locate h5 {
         margin-left: -135px;

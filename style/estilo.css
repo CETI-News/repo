@@ -43,9 +43,9 @@ nav a {
 }
 /* Change color on hover */
 nav a:hover {
-    background-color: #100c08;
+    background-color: rgba(16, 12, 8, .9);
     color: #fff;
-    border-bottom: 2px solid #fff;
+    /*border-bottom: 2px solid #fff;*/
 }
 /* Column container */
 .row {  

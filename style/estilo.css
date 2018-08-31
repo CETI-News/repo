@@ -91,6 +91,18 @@ footer a {
     font-size: 18px;
     text-decoration: none;
 }
+#but {
+    display: flex;
+    justify-content: flex-end;
+}
+#but a {
+    border-radius: 5px 0px 0px 0px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    margin: -40px 0px 0px 0px;
+    padding: 10px;
+}
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
     .img-lamp {
@@ -108,7 +120,8 @@ footer a {
         padding: 14px 20px;
     }
     .main {
-        padding: 15px;
+        padding: 15px 15px 45px 15px;
+
     }
     .row, nav {   
         flex-direction: column;
@@ -118,5 +131,10 @@ footer a {
         width: 100%;
         height: 300px;
         padding: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    img {
+        height: 200px;
     }
 }

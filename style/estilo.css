@@ -57,7 +57,7 @@ nav a:hover {
     flex: 70%;
     color: #fff;
     background-color: #100c08;
-    padding: 10px 150px;
+    padding: 10px 150px 20px 150px;
     text-align: justify;
 }
 p {

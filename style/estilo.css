@@ -60,6 +60,9 @@ nav a:hover {
     padding: 10px 150px 20px 150px;
     text-align: justify;
 }
+.main h2 {
+    text-align: left;
+}
 p {
     text-indent: 25px;
 }
